@@ -1,14 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .main{
-    margin: 10vh auto;
-    margin-bottom: 0px;
+    margin: 10vh 25vw;
     text-align: center;
-    /* border: solid; */
+}
+
+.image img {
+    display: block;
+    width: 100%;
 }
 
 .btn{
-    width: 42%;
+    width: 100%;
     padding: 15px;
     border: 2px solid black;
     color: white;
-    background: linear-gradient(to right, rgb(21, 137, 116), rgb(89, 161, 89));
+    background: linear-gradient(to right, rgb(21, 110, 183), rgb(89, 161, 89));
 }
